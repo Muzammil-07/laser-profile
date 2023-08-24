@@ -147,8 +147,8 @@ const Gallery = () => {
   };
   return (
     <div className="bg-black text-white px-4 md:px-12 ">
-      <h1 className="text-2xl py-6 text-yellow-400">Gallery</h1>
-      <div className="h-[450px] grid grid-cols-[1fr_6fr_1fr] justify-items-center md:grid-cols-[1fr_3fr_1fr]  ">
+      <h1 className="text-2xl py-6 text-yellow-400">Projects</h1>
+      <div className="h-[450px] grid grid-cols-[1fr_6fr_1fr] justify-items-center place-content-center md:grid-cols-[1fr_3fr_1fr]  ">
         <div>
           {" "}
           <button onClick={handleDec}>

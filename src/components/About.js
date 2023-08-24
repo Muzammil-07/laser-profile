@@ -1,8 +1,9 @@
 import React from "react";
-
+import { Slide } from "react-awesome-reveal";
 const About = () => {
   return (
     <div className="bg-gray-900 text-white px-12 py-6">
+      <Slide triggerOnce delay={50} duration={1200}>
       <h2 className="text-2xl text-yellow-400">About</h2>
       <div className="px-4 space-y-3">
         <h3 className="text-xl">Education</h3>
@@ -29,6 +30,9 @@ const About = () => {
             <p>Laser CNC Operator</p>
           </li>
           <li>
+            <p>CorelDraw</p>
+          </li>
+          <li>
             <p>Graphics Designing</p>
           </li>
           <li>
@@ -41,6 +45,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+      </Slide>
     </div>
   );
 };

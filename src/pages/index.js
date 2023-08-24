@@ -6,6 +6,7 @@ import Head from 'next/head'
 import Crousal from '@/components/Crousal'
 import About from '@/components/About'
 import Gallery from '@/components/Gallery'
+import Contact from '@/components/Contact'
 export default function Home() {
   return (
     <main
@@ -15,6 +16,7 @@ export default function Home() {
       <Crousal />
       <About/>
       <Gallery/>
+      <Contact/>
             
     </main>
   )
