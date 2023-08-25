@@ -24,6 +24,13 @@ const About = () => {
             </p>
           </li>
         </ul>
+           <h3 className="text-xl">Experience</h3>
+        <ul className="list-disc pl-4">
+          <li>
+            <p>Six Years Experience as CNC Operator and Graphics Designer at ELEVATION PVT LTD Karachi Pakistan</p>
+          </li>
+       
+        </ul>
         <h3 className="text-xl">Skills</h3>
         <ul className="list-disc pl-4">
         <li>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profile from "../../public/images/profile.jpeg";
+import profile from "../../public/images/pr1.jpg";
 import { Fade, Slide } from "react-awesome-reveal";
 const Crousal = () => {
   return (
