@@ -7,7 +7,7 @@ const Crousal = () => {
     <div className=" pt-4 grid grid-cols-1 md:grid-cols-2 bg-black text-white">
       <div className="flex justify-center items-center flex-col gap-y-2 md:gap-y-4">
         <Slide triggerOnce delay={400}>
-        <h1 className="text-2xl md:text-6xl text-yellow-400 mt-4">i am Muzammil Ali </h1>
+        <h1 className="text-2xl md:text-6xl text-yellow-400 mt-12 md:mt-4">i am Muzammil Ali </h1>
         </Slide>
         <Slide triggerOnce delay={800}>
         <h1 className=" text-xl md:text-4xl">CNC Operator</h1>
